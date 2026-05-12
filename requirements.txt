@@ -1,0 +1,21 @@
+# Scraping
+google-play-scraper
+
+# Preprocessing
+nltk
+PySastrawi
+emoji
+
+# Modeling & Evaluation
+scikit-learn
+numpy
+pandas
+
+# Visualisasi
+matplotlib
+seaborn
+wordcloud
+
+# Opsional: Transformer
+# transformers
+# torch
