@@ -29,6 +29,7 @@ shopee-review-classifier/
 │   └── .gitkeep
 ├── output/
 │   └── .gitkeep
+├── index.html
 ├── requirements.txt
 └── README.md
 ```
@@ -56,6 +57,7 @@ shopee-review-classifier/
 
 ## Pipeline Notebook
 
+0. Install dependencies
 1. Import Library
 2. Scraping ulasan Shopee dari Google Play Store
 3. Eksplorasi data (EDA)
@@ -85,6 +87,10 @@ F1-Score kelas minoritas tidak di bawah **0.50**.
 - Bar chart perbandingan akurasi Naive Bayes vs Logistic Regression
 - WordCloud untuk kelas Positif, Netral, dan Negatif
 - Insight naratif: kata dominan per kelas, model terbaik, pola keluhan dan pujian pengguna
+
+## Halaman Project
+
+Tersedia sebagai GitHub Pages di `index.html`. Aktifkan di Settings > Pages > Branch: main, folder: / (root).
 
 ---
 
