@@ -36,13 +36,13 @@ shopee-review-classifier/
 
 ## Dataset
 
-- **Sumber**: Google Play Store — Aplikasi Shopee Indonesia
+- **Sumber**: Google Play Store, Aplikasi Shopee Indonesia
 - **Scraping**: `google-play-scraper` dengan parameter `lang='id'`, `country='id'`
 - **Jumlah target**: minimal 2.000 ulasan
 - **Labeling otomatis** berdasarkan rating:
-  - ⭐⭐⭐⭐⭐ (4–5) → **Positif**
-  - ⭐⭐⭐ (3) → **Netral**
-  - ⭐⭐ (1–2) → **Negatif**
+  - ⭐⭐⭐⭐⭐ (4-5) -> **Positif**
+  - ⭐⭐⭐ (3) -> **Netral**
+  - ⭐⭐ (1-2) -> **Negatif**
 
 ## Tech Stack
 
@@ -65,8 +65,8 @@ shopee-review-classifier/
 5. Labeling otomatis berdasarkan rating
 6. TF-IDF Vectorization
 7. Split data (80% train, 20% test, stratify)
-8. Model 1 — Multinomial Naive Bayes
-9. Model 2 — Logistic Regression
+8. Model 1 - Multinomial Naive Bayes
+9. Model 2 - Logistic Regression
 10. Perbandingan akurasi dua model (bar chart)
 11. WordCloud per kelas sentimen
 12. Analisis kata dominan per kelas (TF-IDF score)
@@ -76,8 +76,8 @@ shopee-review-classifier/
 
 | Model | Target Akurasi |
 |---|---|
-| Multinomial Naive Bayes | ≥ 75% |
-| Logistic Regression | ≥ 80% |
+| Multinomial Naive Bayes | >= 75% |
+| Logistic Regression | >= 80% |
 
 F1-Score kelas minoritas tidak di bawah **0.50**.
 
